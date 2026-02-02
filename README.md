@@ -9,6 +9,7 @@
 - 🔍 支持精确匹配和模糊搜索
 - 🏷️ 支持别名匹配
 - 📂 按类型分类（Genre、Move、Performer等）
+- 🤖 支持作为 LLM Tool 被模型自动调用（`porntags_query`）
 
 ## 安装
 
@@ -39,6 +40,13 @@
 ```
 /porntags
 ```
+
+## LLM Tool（可选）
+
+如果你的 AstrBot 版本支持 LLM Tool，本插件会在初始化时自动注册 `porntags_query`，供大语言模型在对话中调用。
+
+- 工具名: `porntags_query`
+- 参数: `keywords`（字符串，支持 `list`）
 
 ## 术语分类
 

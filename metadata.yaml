@@ -1,6 +1,6 @@
 name: astrbot_plugin_porntags # 插件唯一识别名
 display_name: PornTags 术语查询 # 用于展示的名字
 desc: 通过/porntags命令查询成人内容术语标签的中英文含义和解释。支持别名匹配和模糊搜索。
-version: v1.0.0 # 插件版本号
+version: v1.1.0 # 插件版本号
 author: vmoranv # 作者
 repo: https://github.com/vmoranv/astrbot_plugin_porntags # 插件的仓库地址
